@@ -1,0 +1,187 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="hero">
+        <h1 class="banner">
+            Prueba de un examen con autocorreción
+        </h1>
+    </div>
+    <form action="" onsubmit="validate()">
+        <div class="section">
+            <div class="container">
+                <h2>1. ¿Cuál es la tasa de alcohol permitida a un conductor novel?</h2>
+                <div class="form-group">
+                    <div class="checkbox">
+                        <input type="radio" id="radio1" name="pregunta1" value="1" />
+                        <label for="radio1">0,15 miligramos de alcohol por litro de aire espirado.</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="radio" id="radio2" name="pregunta1" value="2" />
+                        <label for="radio2">0,25 miligramos de alcohol por litro de aire espirado.</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="radio" id="radio3" name="pregunta1" value="3" />
+                        <label for="radio3">0,3 miligramos de alcohol por litro de aire espirado.</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <h2>2. ¿Están obligados a llevar cinturón de seguridad los pasajeros de un taxi?</h2>
+                <div class="form-group">
+                    <label for="pregunta2">Selecciona una respuesta</label>
+                    <select name="pregunta2" id="pregunta2">
+                        <option value="1">Si, en todos los casos, tanto en asientos delanteros como traseros.</option>
+                        <option value="2">No, no es necesario.</option>
+                        <option value="3">Si, pero solo cuando viajen delante.</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <h2>3. El vehículo que salga de una vía no pavimentada, ¿a qué vehículo debe ceder el paso?</h2>
+                <div class="form-group">
+                    <label for="pregunta3">Selecciona una respuesta</label>
+                    <select name="pregunta3" id="pregunta3">
+                        <option value="1">A los vehiculos que se aproximen por la derecha.</option>
+                        <option value="2">A los vehiculos que circulen por la via pavimentada.</option>
+                        <option value="3">A los vehiculos que circulen por la via mas ancha.</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <h2>4. Para incorporarse a la circulación, ¿está permitido dar marcha atrás?</h2>
+                <div class="form-group">
+                    <div class="checkbox">
+                        <input type="radio" id="check1" name="pregunta4" value="1" />
+                        <label for="check1">No, en ningun caso.</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="radio" id="check2" name="pregunta4" value="2" />
+                        <label for="check2">Si, pero solo en vias urbanas.</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="radio" id="check3" name="pregunta4" value="3" />
+                        <label for="check3">Si, es uno de los casos en los que esta permitido.</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <h2>5. ¿Está permitido remolcar con un turismo a un vehículo averiado por una autopista?</h2>
+                <p>Selecciona una respuesta</p>
+                <div class="form-group">
+                    <div class="checkbox">
+                        <input type="checkbox" id="check4" name="pregunta5" value="1" />
+                        <label for="check4">No, debe hacerlo una grúa.</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="check5" name="pregunta5" value="2" />
+                        <label for="check5">Sí, hasta el taller más próximo.</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="check6" name="pregunta5" value="3" />
+                        <label for="check6">Sí, cuando la grúa tarde más de media hora.</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <h2>6. ¿Para qué se debe utilizar el carril izquierdo en las calzadas de doble sentido y dos carriles?</h2>
+                <div class="form-group">
+                    <label for="pregunta6">Selecciona una o varias respuestas</label>
+                    <select name="pregunta6" id="pregunta6" multiple>
+                        <option value="1">Para circular todo el trayecto.</option>
+                        <option value="2">Para adelantar.</option>
+                        <option value="3">Para nada, pues no se debe circular por el carril izquierdo.</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <h2>7. La carga que sobresale por delante de un vehículo, ¿cómo debe ir señalizada?</h2>
+                <p>Selecciona una respuesta</p>
+                <div class="form-group">
+                    <div class="checkbox">
+                        <input type="radio" id="check10" name="pregunta7" value="1" />
+                        <label for="check10">Con una luz blanca, de noche o en condiciones que disminuyan sensiblemente la visibilidad.</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="radio" id="check11" name="pregunta7" value="2" />
+                        <label for="check11">Con una luz blanca y un reflectante blanco, de noche o en condiciones que disminuyan sensiblemente
+                            la visibilidad.</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="radio" id="check12" name="pregunta7" value="3" />
+                        <label for="check12">Con una luz blanca, tanto de día como de noche.</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <h2>8. ¿Se puede realizar un cambio de sentido en un lugar donde esté prohibido adelantar?</h2>
+                <p>Selecciona una respuesta</p>
+                <div class="form-group">
+                    <div class="checkbox">
+                        <input type="radio" id="check10" name="pregunta8" value="1" />
+                        <label for="check10">Sí, excepto entre la puesta y la salida de sol, porque disminuye la visibilidad.</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="radio" id="check11" name="pregunta8" value="2" />
+                        <label for="check11">No, salvo que el cambio de sentido esté expresamente autorizado.</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="radio" id="check12" name="pregunta8" value="3" />
+                        <label for="check12">Sí, cuando la circulación en sentido contrario lo permita.</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <h2>9. Explica por que el consumo de cannabis afecta al comportamiento del conductor.</h2>
+                <p>Introduce tu respuesta</p>
+                <div class="form-group">
+                    <label for="pregunta9"></label>
+                    <textarea id="pregunta9" name="pregunta9" cols="30" rows="5"></textarea>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <h2>10. Para tratar de controlar o reducir una hemorragia por el oído, ¿es conveniente taponarlo?</h2>
+                <p>Introduce tu respuesta</p>
+                <select name="pregunta10" id="pregunta10">
+                    <option value="1">No, lo adecuado es cubrir, sin presionar, el oído con una gasa estéril.</option>
+                    <option value="2">No, lo adecuado es inclinar la cabeza hacia delante para facilitar la salida de la sangre.</option>
+                    <option value="3">Sí, lo taponaremos porque es el método más eficaz.</option>
+                </select>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container text-center">
+                <button type="submit" style="margin:40px 0;">Comprobar resultados</button>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
