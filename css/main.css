@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700");
+
+html {
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 980px;
+}
+.container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media (min-width: 544px) {
+  .container {
+    max-width: 576px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 800px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 980px;
+  }
+}
+@media (min-width: 1300px) {
+  .container {
+    max-width: 1260px;
+  }
+}
+
+.hero {
+  height: 400px;
+  padding: 100px 0;
+  background-color: #fafafa;
+}
+
+.banner {
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+  max-width: 980px;
+  margin: 0 auto;
+}
+.form-group {
+  padding: 15px 0;
+}
+.form-group > label {
+  padding: 10px 0;
+  display: block;
+}
+.checkbox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.checkbox > label {
+  padding-left: 10px;
+}
+.bg-gris {
+  background-color: #f7f7f9;
+}
+
+.text-center {
+  text-align: center;
+}
